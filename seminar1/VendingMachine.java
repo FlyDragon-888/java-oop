@@ -43,7 +43,7 @@ public class VendingMachine {
             System.out.println("Сдача: " + Math.round((price - productFound.getCost())) + " руб.");
             return productFound;
         }
-        System.out.println("Цена не соответствует внесенной сумме");
+        System.out.println("Цена не соответствует внесенной сумме ");
         return null;
     }
 

@@ -9,6 +9,6 @@ public class CursedProduct extends Product{
 
     @Override
     public String toString() {
-        return String.format("%s - %d дней годности", super.toString(), longevity);
+        return String.format("%s - %d дней годности ", super.toString(), longevity);
     }
 }

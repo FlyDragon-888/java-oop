@@ -10,6 +10,6 @@ public class Milk extends Product{
 
     @Override
     public String toString() {
-        return String.format("%s - %.1f жирн.", super.toString(), fat);
+        return String.format("%s - %.1f жирн. ", super.toString(), fat);
     }
 }

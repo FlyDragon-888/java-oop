@@ -17,7 +17,7 @@ public class Water extends Product{
 
     @Override
     public String toString() {
-        String isStill = this.isStill ? "негаз." : "газ.";
+        String isStill = this.isStill ? "негаз." : "газ. ";
         return String.format("%s - %d мл - %s", super.toString(), volume, isStill);
     }
 }
