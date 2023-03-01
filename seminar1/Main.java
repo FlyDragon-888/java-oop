@@ -15,17 +15,17 @@ public class Main {
 
         System.out.println(store);
 
-        System.out.println("\nИщем Lays..");
+        System.out.println("\nИщем Lays...");
         System.out.println(store.findProduct("Lays"));
-        System.out.println("\nПокупаем Lays..");
+        System.out.println("\nПокупаем Lays...");
         store.buy("Lays", 123.45);
-        System.out.println("\nПокупаем Что-то..");
+        System.out.println("\nПокупаем Что-то...");
         store.buy("Что-то", 123.45);
-        System.out.println("\nПокупаем пиво..");
+        System.out.println("\nПокупаем пиво...");
         store.buy("Kozel", 66.66);
-        System.out.println("\nПокупаем Evian..");
+        System.out.println("\nПокупаем Evian...");
         store.buy("evian", 66.00);
-        System.out.println("\nПокупаем Parmalat..");
+        System.out.println("\nПокупаем Parmalat...");
         store.buy("Parmalat", 100.00);
 
         System.out.println(store);
